@@ -1,6 +1,6 @@
 "use strict"
 
-const { MediaWikiJS } = require('@lavgup/mediawiki.js')
+const { nodemw } = require('nodemw')
 const bot = new MediaWikiJS(require('./config.json').mzh)
 bot
 	.login()
